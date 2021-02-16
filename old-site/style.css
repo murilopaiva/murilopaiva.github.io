@@ -1,0 +1,118 @@
+body{
+
+	padding:0;
+	margin:0;
+}
+
+#geral{
+
+	overflow: hidden;
+	background-color: #F8F9FA;
+}
+
+nav{
+    box-shadow: 0 8px 28px 0 rgba(0, 0, 0, 0.466), 0 8px 28px 0 rgba(0, 0, 0, 0.438);
+    width:100%;
+}
+
+
+#inicio{
+    height: 700px;
+    background: url(back.jpg);
+    background-position: left;
+    background: cover;
+    background-attachment: fixed;
+	margin: 0 auto;
+    padding: auto;
+    width: 100%;
+	margin-top: 1%;
+    text-align: center;
+
+}
+
+.foto-perfil{
+	border-radius: 50%;
+	width: 200px;
+    height: 200px;
+    margin-top: 160px;
+    
+    
+}
+
+#geral h1{
+   color:#F8F9FA;
+   font-size: 50px;
+   text-shadow: .1em 0.1em 0.1em rgba(0,0,0,1);
+
+}
+
+#sobre{
+
+	margin:0 auto;
+	padding: 50px;
+    margin-top: 10%;
+}
+
+#hobbies{
+
+	margin:0 auto;
+	padding: 50px;
+	margin-top: 10%;
+}
+
+#portifolio{
+	margin:0 auto;
+	padding: 10px;
+	margin-top: 10%;
+
+}
+
+#geral h2{
+	color: rgb(160, 110, 241);
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+#img-hobbies{
+
+    margin-top: -100px;
+}
+
+.footer{
+	text-align-last: center;
+    background:#F8F9FA;
+}
+
+#redes {
+    
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#geral a{
+    color: rgb(160, 110, 241) ;
+}
+@media (max-width: 576px){
+	#geral p{
+		font-size: 16px;
+	}
+	#img-hobbies{
+		display: none;
+	}
+	#instagram{
+        display: none;
+    }
+    #facebook{
+        display: none;
+
+    }
+    #twitter{
+        display: none;
+    }
+    #whatsapp{
+        margin-left: 60px;
+        
+    }
+
+    
+}

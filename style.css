@@ -1,118 +1,72 @@
-body{
-
-	padding:0;
-	margin:0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#geral{
-
-	overflow: hidden;
-	background-color: #F8F9FA;
+body {
+    background-color: #0C4DAF;
 }
 
-nav{
-    box-shadow: 0 8px 28px 0 rgba(0, 0, 0, 0.466), 0 8px 28px 0 rgba(0, 0, 0, 0.438);
-    width:100%;
-}
-
-
-#inicio{
-    height: 700px;
-    background: url(back.jpg);
-    background-position: left;
-    background: cover;
-    background-attachment: fixed;
-	margin: 0 auto;
-    padding: auto;
-    width: 100%;
-	margin-top: 1%;
-    text-align: center;
-
-}
-
-.foto-perfil{
-	border-radius: 50%;
-	width: 200px;
-    height: 200px;
-    margin-top: 160px;
-    
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
-#geral h1{
-   color:#F8F9FA;
-   font-size: 50px;
-   text-shadow: .1em 0.1em 0.1em rgba(0,0,0,1);
-
+.content img {
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+    
 }
 
-#sobre{
-
-	margin:0 auto;
-	padding: 50px;
-    margin-top: 10%;
-}
-
-#hobbies{
-
-	margin:0 auto;
-	padding: 50px;
-	margin-top: 10%;
-}
-
-#portifolio{
-	margin:0 auto;
-	padding: 10px;
-	margin-top: 10%;
-
-}
-
-#geral h2{
-	color: rgb(160, 110, 241);
+.content h1 {
+    font-family: 'Press Start 2P', cursive;
     font-size: 50px;
-    text-shadow: 0.1em 0.1em 0.1em rgba(0,0,0,0.2);
-}
-
-#img-hobbies{
-
-    margin-top: -100px;
-}
-
-.footer{
-	text-align-last: center;
-    background:#F8F9FA;
-}
-
-#redes {
-    
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-#geral a{
-    color: rgb(160, 110, 241) ;
-}
-@media (max-width: 576px){
-	#geral p{
-		font-size: 16px;
-	}
-	#img-hobbies{
-		display: none;
-	}
-	#instagram{
-        display: none;
-    }
-    #facebook{
-        display: none;
-
-    }
-    #twitter{
-        display: none;
-    }
-    #whatsapp{
-        margin-left: 60px;
-        
-    }
-
+    color: #23FF32;
+    margin-top: 30px;
     
 }
+
+
+.content h1:first-letter {
+    font-size: 150%;
+    color: #DD4444;
+}
+
+.content p {
+    margin-top: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #23FF32;
+}
+
+.content p:first-letter {
+    font-size: 150%;
+    color: #DD4444;
+}
+
+.content h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: #23FF32;
+    margin-top: 30px;
+}
+
+.content h2:first-letter {
+    font-size: 150%;
+    color: #DD4444;
+}
+
+.content span{
+    color: #23FF32;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 20px ;
+}
+
+
+
