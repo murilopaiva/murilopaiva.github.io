@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #0C4DAF;
+    background-color: #000000;
 }
 .content {
     display: flex;
@@ -27,12 +27,6 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: 50px;
     color: #23FF32;
-    margin-right: 50px;
-    
-}
-.content h1:first-letter {
-    font-size: 150%;
-    color: #DD4444;
 }
 .about {
     box-sizing: border-box;
@@ -47,10 +41,6 @@ body {
     color: #23FF32;
     line-height: 35px;
 }
-.content p:first-letter {
-    font-size: 150%;
-    color: #DD4444;
-}
 .content h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;
@@ -58,10 +48,6 @@ body {
 }
 .contact h2{
     margin-bottom: 30px;
-}
-.contact h2:first-letter {
-    font-size: 150%;
-    color: #DD4444;
 }
 .note {
     color: #23FF32;
